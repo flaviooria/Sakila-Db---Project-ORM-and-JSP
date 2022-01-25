@@ -1,0 +1,11 @@
+com/flaviodev/orm_web/provider/ControllerSession.class
+helpers/HibernateProxyTypeAdapter.class
+models/FilmCreator.class
+com/flaviodev/orm_web/updateFilm.class
+com/flaviodev/orm_web/deleteFilm.class
+models/Language.class
+com/flaviodev/orm_web/createFilm.class
+com/flaviodev/orm_web/getDataMovies.class
+helpers/HibernateUtil.class
+models/Film.class
+helpers/HibernateProxyTypeAdapter$1.class
