@@ -1,6 +1,8 @@
 # SAKILA DB WEB WITH HIBERNATE AND JSP
 
+![home](https://github.com/flaviooria/Sakila-Db---Project-ORM-and-JSP/blob/master/screenshots/home.png?raw=true)
 
+![edit](https://github.com/flaviooria/Sakila-Db---Project-ORM-and-JSP/blob/master/screenshots/edit.png?raw=true)
 * ## Descripción
     * Está página web esta basada la base de datos sakila, donde se tratan datos sobre películas,actores,audiencia etc. Además utilizamos tecnologías como Hibernate que lo usamos como [ORM](https://www2.deloitte.com/es/es/pages/technology/articles/que-es-orm.html) (Object Maping Relational) o en español Mapeador Objeto Relacional que nos ayudara con la persistencia de datos y modelado de datos tales como los POJOS en nuestro proyecto.
 
