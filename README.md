@@ -1,6 +1,6 @@
 # SAKILA DB WEB WITH HIBERNATE AND JSP
 
----
+
 * ## Descripción
     * Está página web esta basada la base de datos sakila, donde se tratan datos sobre películas,actores,audiencia etc. Además utilizamos tecnologías como Hibernate que lo usamos como [ORM](https://www2.deloitte.com/es/es/pages/technology/articles/que-es-orm.html) (Object Maping Relational) o en español Mapeador Objeto Relacional que nos ayudara con la persistencia de datos y modelado de datos tales como los POJOS en nuestro proyecto.
 
@@ -60,7 +60,8 @@ A continuación les sugerimos ingresar al link o enlace de descarga del servido 
 
 ## Notas para el desarrollador
 
-- Antes de que arranques la página quisiera ayudarte con librerías que puedas necesitar o ficheros que necesites editar para poder ejecutar y compilar el programa correctamente.
+- Antes de que arranques la página quisiera ayudarte con librerías que puedas necesitar o ficheros que necesites editar para poder ejecutar y compilar el programa correctamente. Además de señalar que está aplicación se ha realizad con el IDE Netbeans.
+
 
   - Tienes dentro del repositorio un directorio llamado Database, ahí encontraras los ficheros sakila.sql y sakila_schema.sql el cual puedes utilizar para poder manejar la base de datos del programa.
 
@@ -90,4 +91,20 @@ A continuación les sugerimos ingresar al link o enlace de descarga del servido 
      $ password: your_password
      ```
 
-     ***copia el contenido del fichero fernanpop.sql y pegalo.***
+     ***copia el contenido del fichero sakila_schema.sql primero y pegalo.***
+
+      ***copia el contenido del fichero sakila.sql y pegalo.***
+
+----
+# Paso a paso
+
+* [_Dependencia de mysql connector para añadir al pom.xml_](https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.28)
+
+* Enlaces de tutorial de creación de este proyecto.
+  * [_Proyecto Web Sakila (Parte 1)_](https://youtu.be/BchmYyNzjwQ)
+  * [_Proyecto Web Sakila (Parte 2)_](https://youtu.be/1snDFE6o-fg)
+  * [_Proyecto Web Sakila (Parte 3)_](https://youtu.be/cKNUjLx4eco)
+
+
+
+

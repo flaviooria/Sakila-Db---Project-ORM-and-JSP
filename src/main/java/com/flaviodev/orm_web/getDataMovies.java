@@ -77,13 +77,13 @@ public class getDataMovies extends HttpServlet {
         b.registerTypeAdapterFactory(HibernateProxyTypeAdapter.FACTORY);
         Gson gson = b.create();*/
         String query_name = request.getParameter("query");
-        String value = request.getParameter("filter_searched");
+        String value_filter = request.getParameter("filter_searched");
 
-        System.out.println("valor del select: " + value);
+        System.out.println("valor del select: " + value_filter);
 
         String filter = "film.title"; //value by default
 
-        switch (value) {
+        switch (value_filter) {
             case "1":
                 filter = "film.title";
                 break;

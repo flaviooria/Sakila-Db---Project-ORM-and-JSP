@@ -64,10 +64,10 @@
             <div class="container-search">
                 <!-- Dropdown Genre Movies -->
                 <select name="filter_searched" id="filter_search" class="menu-genres btn btn-outline-dark dropdown-toggle">
-                    <option selected value="0">Fitrar Género</option>
+                    <option selected value="0">Filtrado</option>
                     <option value="1">Nombre</option>
                     <option value="2">Descripcion</option>
-                    <option value="3">Rating</option>
+                    <option value="3">Clasificación</option>
                 </select>
                 <!-- Form -->
                 <form method="get" action="${pageContext.request.contextPath}/getDataMovies" class="form-search" autocomplete="off">
